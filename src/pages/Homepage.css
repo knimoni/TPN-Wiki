@@ -1,0 +1,34 @@
+
+.menu-box {
+    padding: 1rem;
+    text-align: center;
+    
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .home {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    text-align: center;
+  }
+  .app-link{
+    background-color: #4b5220;
+    border-radius: 10px;
+    color: #F8F9F3;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    gap: 1rem;
+    
+  }
+  .app-link:hover {
+    color: yellow;
+  }

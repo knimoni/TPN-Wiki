@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 7px double;
+    text-align: center;
+}
+h2{
+    margin-top: 17px;
+}
+h3{
+    margin:3px;
+}
+.about-nim{
+    align-items: flex-end;
+    font-family: "Outfit", sans-serif;
+    color: rgb(82, 88, 14);
+    transition: ease-out 0.3s;
+    text-align: center;
+    padding: 3px;
+  }
+  
+  .about-nim:hover{
+    color: rgb(192, 106, 213);
+    transition: ease-in 0.3s;
+  }
+  p{
+    padding: 2px;
+  }

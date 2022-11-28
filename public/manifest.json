@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "TPN Wiki",
+  "name": "The Promised Neverland wikipedia",
   "icons": [
     {
       "src": "favicon.ico",

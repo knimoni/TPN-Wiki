@@ -1,0 +1,27 @@
+
+.image-chara{
+    width: 200px;
+    border-radius: 10px;
+    height: flex;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.detail-item{
+    display: flex;
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.distance{
+    margin-bottom: 100px;
+}
