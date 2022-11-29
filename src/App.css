@@ -40,12 +40,11 @@ footer {
   bottom: 0;
   left: 0;
   top: 91%;
-  background-color: rgba(74, 77, 30, 0.522);
+  background-color: #4a4d1e;
   width: 100%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
 
 
+  
 }
 
 .iconWrapper {
@@ -61,7 +60,7 @@ footer {
 }
 
 .icon {
-  color: #5f612b;
+  color: #b0b366;
   margin-bottom: 4px;
   font-size: 22px;
 }
