@@ -11,13 +11,13 @@ import DetailLoca from './pages/DetailLoca'
 import DetailObj from './pages/DetailObj'
 import './App.css'
 
-// import { createBrowserHistory } from 'history'
+import { createBrowserHistory } from 'history'
 
-// const history = createBrowserHistory()
+const history = createBrowserHistory()
 
 function App() {
   return (
-    <Router>
+    <Router history={history}>
       <div className="app">
         <Routes>
           <Route path="/" element={<Homepage />} />
