@@ -1,6 +1,7 @@
 import React, { useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { NavLink } from 'react-router-dom';
 import "./DetailLoca.css"
 
 export default function DetailLoca(){
@@ -43,8 +44,12 @@ export default function DetailLoca(){
             <p>Layout: <p>
                 </p>{data.Layout}</p>
           </div>
+          <div className="menu-box">
+              <NavLink to="/locations" className="link app-link">
+                Back to Location
+              </NavLink>
+            </div>
         </div>
 }
-    </div>
-  );
+</div>)
 }

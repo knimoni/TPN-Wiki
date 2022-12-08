@@ -1,6 +1,7 @@
 import React, { useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { NavLink } from 'react-router-dom';
 import "./DetailObj.css"
 
 export default function DetailObj(){
@@ -40,8 +41,13 @@ export default function DetailObj(){
             <p>Owner : {data.owner}</p>
             <p>{data.desc}</p>
           </div>
+          
+          <div className="menu-box">
+              <NavLink to="/objects" className="link app-link">
+                Back to Object
+              </NavLink>
+            </div>
         </div>
 }
-    </div>
-  );
+</div>)
 }

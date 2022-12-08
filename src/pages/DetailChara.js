@@ -1,6 +1,7 @@
 import React, { useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { NavLink } from 'react-router-dom';
 import "./DetailChara.css"
 
 export default function DetailChara(){
@@ -43,8 +44,12 @@ export default function DetailChara(){
             <p>Etymology:<p>
                 </p> {data.etymology}</p>
           </div>
+          <div className="menu-box">
+              <NavLink to="/characters" className="link app-link">
+                Back to Characters
+              </NavLink>
+            </div>
         </div>
 }
-    </div>
-  );
+</div>)
 }
